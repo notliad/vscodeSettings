@@ -1,0 +1,183 @@
+{
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "workbench.iconTheme": "symbols",
+  "git-autoconfig.configList": [
+    {
+      "user.email": "dailton.rcf@gmail.com",
+      "user.name": "notliad"
+    }
+  ],
+  "git.confirmSync": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "mcp": {
+    "inputs": [],
+
+    "servers": {
+      "context7": {
+        "type": "http",
+        "url": "https://mcp.context7.com/mcp"
+      },
+      "mcp-server-time": {
+        "command": "python",
+        "args": [
+          "-m",
+          "mcp_server_time",
+          "--local-timezone=America/Los_Angeles"
+        ],
+        "env": {}
+      }
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.titleBarStyle": "custom",
+  "editor.minimap.scale": 2,
+  "editor.letterSpacing": 0.2,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 14,
+  "fontshortcuts.defaultFontSize": 13,
+  "fontshortcuts.defaultTerminalFontSize": 13,
+  "fontshortcuts.step": 1,
+  "editor.lineHeight": 1.4,
+  // "editor.lineHeight": 2,
+  "editor.cursorWidth": 3,
+  // "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Dank Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Space Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  //"editor.fontFamily": "'FiraCode Nerd Font Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Geist Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'JetBrains Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  //"editor.fontFamily": "'DaddyTimeMono Nerd Font', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Courier New'",
+  // "editor.fontFamily": "'JetBrains Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Monaspace Neon', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'FiraCode Nerd Font Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Menlo', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'IBM Plex Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Cascadia Code', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'MonoLisa', 'JetBrains Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Anonymous Pro', 'JetBrains Mono', 'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // "editor.fontFamily": "'Fragment Mono', Menlo, Monaco, 'Courier New', monospace",
+  //"editor.fontWeight": "350",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.cursorSurroundingLines": 8,
+  "editor.smoothScrolling": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.folding": true,
+  //gutter
+  "editor.accessibilitySupport": "off",
+  "editor.lightbulb.enabled": "off",
+  "editor.guides.indentation": true,
+  "editor.hover.delay": 300,
+  "editor.hover.sticky": true,
+  "editor.renderLineHighlight": "line",
+  // "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "editor.cursorStyle": "line",
+  //workbench
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.splitInGroupLayout": "horizontal",
+  "workbench.editor.splitSizing": "split",
+  "workbench.editor.untitled.labelFormat": "name",
+  "workbench.editor.wrapTabs": false,
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.editor.showIcons": true,
+
+  "security.workspace.trust.untrustedFiles": "open",
+  // speed up indexing
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/target/**": true
+  },
+  "update.mode": "manual",
+  "files.associations": {
+    ".env.json": "json"
+  },
+  "workbench.settings.editor": "ui",
+  "workbench.editor.empty.hint": "hidden",
+  "editor.cursorBlinking": "solid",
+  "editor.codeLensFontFamily": "'JetBrains Mono'",
+
+  "custom-ui-style.external.imports": [
+    "file:///home/dailton-filho/.config/Code/User/customStyles/settings.css",
+    "file:///home/dailton-filho/.config/Code/User/customStyles/explorerTitleHandler.js"
+  ],
+
+  "workbench.startupEditor": "none",
+  "eslint.format.enable": true,
+  "errorLens.enabled": true,
+  "errorLens.enabledDiagnosticLevels": ["error", "info", "warning"],
+  "workbench.editor.showTabs": "multiple",
+  "symbols.hidesExplorerArrows": true,
+  "window.menuBarVisibility": "compact",
+  "workbench.tree.indent": 15,
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.tabSizingFixedMaxWidth": 200,
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "git.suggestSmartCommit": false,
+  "workbench.colorTheme": "Dark",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.scrollbar.vertical": "visible",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.foreground": "#ffffffbf",
+    "activityBarBadge.background": "#e64646",
+    "activityBar.background": "#2B2D30",
+    "editor.background": "#1c1c1c",
+    "editor.lineHighlightBackground": "#26282d",
+    "editor.lineHighlightBorder": "#00000000",
+    "editorBracketMatch.background": "#43454a",
+    "editorBracketMatch.border": "#00000000",
+    "editorGroupHeader.tabsBackground": "#1c1c1c",
+    "editorGutter.background": "#00000000",
+    "editorStickyScroll.border": "#393939",
+    "editorStickyScroll.shadow": "#00000078",
+    "editorWidget.background": "#2B2D30",
+    "focusBorder": "#00000000",
+    "panel.background": "#1c1c1c",
+    "scrollbar.shadow": "#00000072",
+    "scrollbarSlider.background": "#ffffff12",
+    "sideBar.background": "#1c1c1c",
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBarSectionHeader.background": "#1c1c1c",
+    "statusBar.background": "#2B2D30",
+    "statusBar.debuggingBackground": "#2B2D30",
+    "statusBar.foreground": "#757575",
+    "panel.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "statusBar.noFolderBackground": "#2B2D30",
+    "gitDecoration.modifiedResourceForeground": "#74aeec",
+    "gitDecoration.stageModifiedResourceForeground": "#74aeec",
+    "gitDecoration.addedResourceForeground": "#7fd27fd9",
+    "gitDecoration.renamedResourceForeground": "#74aeec",
+    "gitDecoration.untrackedResourceForeground": "#f7aeae",
+    "gitDecoration.ignoredResourceForeground": "#ffffff3b",
+    "statusBarItem.remoteBackground": "#2B2D30",
+    "statusBarItem.remoteForeground": "#757575",
+    "terminal.background": "#1E1F22",
+    "terminal.border": "#2B2D30",
+    "titleBar.activeBackground": "#2B2D30",
+    "titleBar.inactiveBackground": "#2B2D30",
+    "quickInput.background": "#2B2D30",
+    "input.background": "#3d3e42",
+    "button.background": "#3d3e42"
+  }
+}
